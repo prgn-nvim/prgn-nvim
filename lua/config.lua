@@ -220,6 +220,7 @@ prgn = {
       ["<C-l>"] = { "<C-w>l" },
 
       ["<Leader>bfb"]   = { ":Telescope buffers<CR>", "[F]ind [B]uffers" },
+      ["<Leader>bdb"]   = { ":bdelete<CR>", "[D]elete [B]uffer" },
       ["<Leader>fff"]   = { ":Telescope find_files hidden=true no_ignore=true<CR>", "[F]ind [F]iles]" },
       ["<Leader>ffr"]   = { ":Telescope oldfiles<CR>", "[F]ind [R]ecent [F]iles" },
       ["<Leader>fvf"]   = { ":Telescope file_browser [hidden=true no_ignore=true path=%:p:h<CR>", "[V]iew [F]iles" },
