@@ -1,4 +1,4 @@
---- config.lua
+-- config.lua
 
 -- `prgn-nvim` configuration object
 
@@ -227,7 +227,10 @@ prgn = {
       ["<Leader>pfp"]   = { ":Telescope projects<CR>", "[F]ind [P]rojects" },
       ["<Leader>ppp"]   = { ":Git push<CR>", "[P]ush [P]roject" },
       ["<Leader>pvd"]   = { ":Telescope diagnostics<CR>", "[V]iew [D]iagnostics" },
+      ["<Leader>pvb"]   = { ":Telescope git_branches<CR>", "[V]iew [B]ranches" },
+      ["<Leader>pvh"]   = { ":Telescope git_commits<CR>", "[V]iew [B]ranches" },
       ["<Leader>pvs"]   = { ":Git<CR>", "[V]iew Project [S]tatus" },
+      ["<Leader>pmp"]   = { ":Git merge ", "[M]erge [P]roject" },
       ["<Leader>sfd"]   = { vim.lsp.buf.definition, "[F]ind [D]efinition" },
       ["<Leader>sfi"]   = { vim.lsp.buf.implementation, "[F]ind [I]mplementation" },
       ["<Leader>sffs"]  = { require ("telescope.builtin").lsp_document_symbols, "[F]ind [F]ile [S]ymbols" },
