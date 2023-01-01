@@ -238,6 +238,8 @@ prgn = {
       ["<Leader>sfws"] = { require ("telescope.builtin").lsp_dynamic_workspace_symbols, "[F]ind [W]orkspace [S]ymbols" },
       ["<Leader>svh"] = { vim.lsp.buf.hover, "[V]iew [H]elp" },
       ["<Leader>svs"] = { ":SymbolsOutline<CR>", "[V]iew [S]ymbols" },
+      ["<Leader>ws|"] = { ":vsplit<CR>", "[S]plit Vertically" },
+      ["<Leader>ws-"] = { ":split<CR>", "[S]plit Horizontally" }
     }
   }
 }
